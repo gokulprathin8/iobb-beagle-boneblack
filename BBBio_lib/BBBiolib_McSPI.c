@@ -80,7 +80,7 @@ struct BBBIO_McSPI_struct
 /* ----------------------------------------------------------------------------------------------- */
 /* Global Variable */
 extern int memh;
-extern volatile unsigned int *cm_per_addr ;
+// extern volatile unsigned int *cm_per_addr ;
 
 const unsigned int McSPI_AddressOffset[]={MCSPI0_MMAP_ADDR, MCSPI1_MMAP_ADDR};
 volatile unsigned int *mcspi_ptr[MCSPI_ARG_CHANNEL_COUNT] ={NULL};

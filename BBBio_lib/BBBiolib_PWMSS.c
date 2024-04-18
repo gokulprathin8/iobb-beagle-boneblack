@@ -50,8 +50,8 @@
 #define EPWM_DBFED	0x22
 /*-----------------------------------------------------------------------------------------------*/
 extern int memh;
-extern volatile unsigned int *CM_ptr;	/*c ontrol module */
-volatile unsigned int *cm_per_addr;
+// extern volatile unsigned int *CM_ptr;	
+// volatile unsigned int *cm_per_addr;
 
 
 const unsigned int PWMSS_AddressOffset[]={PWMSS0_MMAP_ADDR,
